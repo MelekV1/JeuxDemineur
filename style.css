@@ -1,0 +1,46 @@
+.container {
+  align-content: center;
+}
+
+.grid {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#e2e2e2;
+  border: 10px solid #447fb4;
+}
+
+.grid div {
+  height: 40px;
+  width:40px;
+  font-size: 15px;
+  color:#447fb4;
+  text-align: center;
+  font-family: 'Lato', monospace;
+}
+
+.bomb{
+  height: 40px;
+  width: 40px;
+  border: 5px solid;
+  border-color: #f5f3eb #e2e2e2 #e2e2e2 #fff9db;
+  box-sizing: border-box;
+}
+
+.checked {
+  height: 40px;
+  width: 40px;
+  border: 2px solid;
+  background-color: #eeeeee;
+  border-color: #e4e4e4;
+  box-sizing: border-box;
+}
+
+.valid {
+  height: 40px;
+  width: 40px;
+  border: 5px solid;
+  border-color: #f5f3eb #e2e2e2 #e2e2e2 #fff9db;
+  box-sizing: border-box;
+}
